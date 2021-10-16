@@ -12,7 +12,7 @@ for(let bt of btn){
      bt.addEventListener('click',(e) =>{
       bttt = e.target.innerText;
       console.log(`Button Pressed ${bttt}`);
-      aaa.innerText = `Select varisble: ${bttt}`;
+      aaa.innerText = `Select variable: ${bttt}`;
 
      })
     }
